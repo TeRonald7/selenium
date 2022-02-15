@@ -10,8 +10,10 @@ def print_hi(name):
     '''芜湖起飞，蚌埠住了'''
 
 
+
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print("Hello World!")
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
