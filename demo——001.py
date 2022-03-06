@@ -5,7 +5,6 @@ from time import sleep
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
 
-sleep(3)
 driver.find_element(By.ID , "kw").send_keys("lil")
 sleep(3)
 driver.quit()
